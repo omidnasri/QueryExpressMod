@@ -4,6 +4,11 @@ VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryExpress", "QueryExpress\QueryExpress.csproj", "{2F9E998B-6691-4EC6-BDF9-AFE090B70413}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{A264B1A9-0375-4292-A41E-456CAB89E277}"
+	ProjectSection(SolutionItems) = preProject
+		docs\images\screenshot.jpg = docs\images\screenshot.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
