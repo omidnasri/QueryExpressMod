@@ -6,5 +6,5 @@ A small utility to query data in production environment. Query Express requires 
 Features:
 * Supports SQL Server and Oracle
 * High performance for big result sets.
-* Syntax Highlighting
 * Save and open `.sql` query files.
+* Syntax Highlighting supported removed because it made some problems for unicode based characters.
