@@ -446,7 +446,7 @@ namespace QueryExpress
             if (FileUtil.ReadFromFile(fileName, out s) && CloseQuery())
             {
                 txtQuery.Text = s;
-                txtQuery.Modified = false;
+                //txtQuery.Modified = false;
                 this.FileName = fileName;
                 realFileName = true;
                 return true;
@@ -484,7 +484,7 @@ namespace QueryExpress
         {
             if (FileUtil.WriteToFile(fileName, txtQuery.Text))
             {
-                txtQuery.Modified = false;
+                //txtQuery.Modified = false;
                 return true;
             }
             else
@@ -768,18 +768,18 @@ namespace QueryExpress
             // 
             // txtQuery
             // 
-            this.txtQuery.AcceptsTab = true;
+            //this.txtQuery.AcceptsTab = true;
             this.txtQuery.AllowDrop = true;
             this.txtQuery.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtQuery.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuery.Location = new System.Drawing.Point(171, 0);
             //this.txtQuery.MaxLength = 0;
-            this.txtQuery.Multiline = true;
+            //this.txtQuery.Multiline = true;
             this.txtQuery.Name = "txtQuery";
             //this.txtQuery.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtQuery.Size = new System.Drawing.Size(643, 174);
             this.txtQuery.TabIndex = 0;
-            this.txtQuery.WordWrap = false;
+            //this.txtQuery.WordWrap = false;
             this.txtQuery.DragDrop += new System.Windows.Forms.DragEventHandler(this.txtQuery_DragDrop);
             this.txtQuery.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtQuery_DragEnter);
             // 
@@ -1094,8 +1094,8 @@ namespace QueryExpress
             int start = txtQuery.SelectionStart;
             txtQuery.AppendText(s);
             txtQuery.SelectionStart = start;
-            txtQuery.SelectionLength = s.Length;
-            txtQuery.Modified = true;
+            //txtQuery.SelectionLength = s.Length;
+            //txtQuery.Modified = true;
             txtQuery.Focus();
         }
 
@@ -1114,10 +1114,10 @@ namespace QueryExpress
                 string s = (string)e.Data.GetData(typeof(string));
                 // Have the newly inserted text highlighted
                 int start = txtQuery.SelectionStart;
-                txtQuery.SelectedText = s;
+                //txtQuery.SelectedText = s;
                 txtQuery.SelectionStart = start;
-                txtQuery.SelectionLength = s.Length;
-                txtQuery.Modified = true;
+                //txtQuery.SelectionLength = s.Length;
+                //txtQuery.Modified = true;
                 txtQuery.Focus();
             }
         }

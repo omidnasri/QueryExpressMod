@@ -101,6 +101,9 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ScintillaNET, Version=3.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jacobslusser.ScintillaNET.3.6.3\lib\net40\ScintillaNET.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -195,6 +198,7 @@
     <None Include="DSSettings.xsx">
       <DependentUpon>DSSettings.xsd</DependentUpon>
     </None>
+    <None Include="packages.config" />
     <None Include="QueryExpress_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
