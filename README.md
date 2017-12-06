@@ -12,4 +12,4 @@ Features:
 Application needs .NET 4.5 installed to run on windows 7 or later.
 
 ### Source
-Modification of QueryExpress (http://www.albahari.com/queryexpress.aspx) to upgrade to .NET 4.6.2 (still winforms) and add SQL syntax highlighting using FCTB (https://www.codeproject.com/Articles/161871/Fast-Colored-TextBox-for-syntax-highlighting).
+Modification of QueryExpress (http://www.albahari.com/queryexpress.aspx) to upgrade to .NET 4.5 (still winforms).
