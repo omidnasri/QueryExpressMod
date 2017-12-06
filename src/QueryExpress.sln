@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryExpress", "QueryExpress.csproj", "{2F9E998B-6691-4EC6-BDF9-AFE090B70413}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryExpress", "QueryExpress\QueryExpress.csproj", "{2F9E998B-6691-4EC6-BDF9-AFE090B70413}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D965432B-17FB-463C-A146-7C4AC9525CF3}
 	EndGlobalSection
 EndGlobal
