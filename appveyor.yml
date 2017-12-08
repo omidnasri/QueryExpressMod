@@ -1,7 +1,7 @@
 image: Visual Studio 2017
 
 build:
-  project: src\QueryExpress.sln
+  project: ./src/QueryExpress.sln
   verbosity: minimal
 
   
