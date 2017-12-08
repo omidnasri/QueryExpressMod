@@ -1,8 +1,9 @@
 image: Visual Studio 2017
 
+build:
+  project: src\QueryExpress.sln
+  verbosity: minimal
+
+  
 before_build:
 - nuget restore
-
-build:
-  project: src/QueryExpress.sln
-  verbosity: minimal
